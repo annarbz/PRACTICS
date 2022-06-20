@@ -2,6 +2,34 @@
   text-align: center;
 }
 
+body {
+  height: 2000px;
+}
+
+.imgblock {
+  position: relative;
+  display: inline-block;
+}
+
+.imgblock img{
+  background-size: auto;
+  width: 150%;
+  height: 500px;
+}
+
+.imgblock span {
+  *background: rgba(228, 225, 225, 0.938);
+  background: rgb(241, 239, 239);
+  color: rgb(10, 4, 4);
+  border-radius: 40px;
+  position: relative;
+  right: 0;
+  bottom: 20px;
+  font-size: 18px;
+  padding: 5px 5px;
+
+} 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -15,4 +43,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.accordion {
+  position: relative;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fefffa;
+    overflow: hidden
 }
