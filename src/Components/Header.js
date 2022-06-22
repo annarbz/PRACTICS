@@ -27,8 +27,8 @@ export default class Header extends Component {
                                     className="mx-auto"
                                 >
                                     <Nav.Link href="/"> Главная </Nav.Link>
-                                    <Nav.Link href="/reviews"> Отзывы </Nav.Link>
-                                    <Nav.Link href="/contacts"> Контакты </Nav.Link>
+                                    <Nav.Link href="reviews"> Отзывы </Nav.Link>
+                                    <Nav.Link href="contacts"> Контакты </Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>
