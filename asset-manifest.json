@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd739123.css",
-    "main.js": "/static/js/main.8d011fda.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/kivach.jpg": "/static/media/kivach.ab9e9dae1a44a957106c.jpg",
-    "static/media/girvas.jpg": "/static/media/girvas.ab007f3ab2e469d0553a.jpg",
-    "static/media/pirs.jpg": "/static/media/pirs.e45e83cac89fe533ede5.jpg",
-    "static/media/dom_leto.jpg": "/static/media/dom_leto.2d93adac464eb2259acc.jpg",
-    "static/media/ozero.jpg": "/static/media/ozero.5d60cb972c87c6284cd5.jpg",
-    "static/media/marzial.jpg": "/static/media/marzial.cd9e0dec053960d53592.jpg",
-    "static/media/Logo.jpg": "/static/media/Logo.8ba41059cb53de056661.jpg",
-    "index.html": "/index.html",
-    "main.fd739123.css.map": "/static/css/main.fd739123.css.map",
-    "main.8d011fda.js.map": "/static/js/main.8d011fda.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/PRACTICS/static/css/main.fd739123.css",
+    "main.js": "/PRACTICS/static/js/main.ab60428f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/PRACTICS/static/js/787.28cb0dcd.chunk.js",
+    "static/media/kivach.jpg": "/PRACTICS/static/media/kivach.ab9e9dae1a44a957106c.jpg",
+    "static/media/girvas.jpg": "/PRACTICS/static/media/girvas.ab007f3ab2e469d0553a.jpg",
+    "static/media/pirs.jpg": "/PRACTICS/static/media/pirs.e45e83cac89fe533ede5.jpg",
+    "static/media/dom_leto.jpg": "/PRACTICS/static/media/dom_leto.2d93adac464eb2259acc.jpg",
+    "static/media/ozero.jpg": "/PRACTICS/static/media/ozero.5d60cb972c87c6284cd5.jpg",
+    "static/media/marzial.jpg": "/PRACTICS/static/media/marzial.cd9e0dec053960d53592.jpg",
+    "static/media/Logo.jpg": "/PRACTICS/static/media/Logo.8ba41059cb53de056661.jpg",
+    "index.html": "/PRACTICS/index.html",
+    "main.fd739123.css.map": "/PRACTICS/static/css/main.fd739123.css.map",
+    "main.ab60428f.js.map": "/PRACTICS/static/js/main.ab60428f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/PRACTICS/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd739123.css",
-    "static/js/main.8d011fda.js"
+    "static/js/main.ab60428f.js"
   ]
 }
