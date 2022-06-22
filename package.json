@@ -2,11 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
   "homepage": " https://annarbz.github.io/PRACTICS/",
-=======
-  "homepage":" https://annarbz.github.io/PRACTICS/"
->>>>>>> dc988489df4101e49c60bb63f1fc94f6ca44f4f8
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
