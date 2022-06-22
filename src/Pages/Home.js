@@ -49,9 +49,9 @@ export default class Home extends Component {
                     ТУРИЗМ
                 </h2>
 
-                <CarouselTur/>
+                <CarouselTur />
 
-               
+
 
 
 

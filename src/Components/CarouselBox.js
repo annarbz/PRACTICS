@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Carousel from 'better-react-carousel'
-import razmytIMG from './razmyt.jpg'
-import razmyt2IMG from './razmyt2.jpg'
+import dom_leto from './dom_leto.jpg'
+import ozero from './ozero.jpg'
+import pirs from './pirs.jpg'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 
 export default class CarouselBox extends Component {
@@ -10,17 +11,27 @@ export default class CarouselBox extends Component {
             <Carousel>
                 <Carousel.Item>
                     <div class='imgblock'>
-                        <img sclassName="d-block w-100" src={razmytIMG} alt='Утуки' />
+                        <img sclassName="d-block w-100" src={dom_leto} alt='Утуки' />
                         {/* <Carousel.Caption> */}
-                        <span>Утуки, республика Карелия</span>
+                        <span > <a href="https://yandex.ru/maps/-/CCUJn8At8D">Утуки, республика Карелия</a></span>
                     </div>
-                    <h3><a href="https://yandex.ru/maps/-/CCUJn8At8D">мы здесь</a></h3>
+
 
                     {/* </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                     <div class='imgblock'>
-                        <img sclassName="d-block w-100" src={razmyt2IMG} alt='Утуки' />
+                        <img sclassName="d-block w-100" src={pirs} alt='Утуки' />
+
+                        {/* <Carousel.Caption> */}
+                        <span>Утуки, республика Карелия</span>
+                    </div>
+
+                    {/* </Carousel.Caption> */}
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div class='imgblock'>
+                        <img sclassName="d-block w-100" src={ozero} alt='Утуки' />
 
                         {/* <Carousel.Caption> */}
                         <span>Утуки, республика Карелия</span>

@@ -8,17 +8,23 @@ import Header from './Components/Header'
 import { AppRoutes } from './AppRoutes'
 
 
+
 function App() {
   return (
     <Router>
-      <div>
-
-        <Header />
-        <AppRoutes />
 
 
+      <Header />
+      <AppRoutes />
 
+      <div class="footer">
+        Тут ссылки
       </div>
+
+
+
+
+
     </Router>
   )
 }
