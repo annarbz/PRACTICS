@@ -57,7 +57,7 @@ body {
 .imgblock {
   position: static;
   display: inline-block;
-  margin: 0;
+  margin: -10;
   padding: 0;
   box-sizing: content-box;
   width: 100%;
@@ -68,6 +68,7 @@ body {
   background-size: auto;
   width: 100%;
   height: 100%;
+  margin-left: 0px;
 }
 
 .imgblock span {
@@ -107,6 +108,114 @@ body {
   color: #CDD6DB;
 }
 
-.Turism{
+.Turism {
   text-align: center;
+}
+
+.contmeleft {
+  border-radius: 8px;
+  /* скругляем края блока*/
+  width: 100%;
+  /* общая ширина блока*/
+  border: 1px solid #d9d9d9;
+  /* рамка блока*/
+  overflow: hidden;
+  /* скрывает возможность появления прокрутки блока. */
+}
+
+.contmeleft img {
+  width: 400px;
+  /* ширина картинки 140 */
+  height: 250px;
+  /* ысота картинки, от неё будет зависеть и размер общего блока */
+  object-fit: cover;
+  /* обрезаем края картинки, если они не вместятся в блок */
+  object-position: 0 70;
+  /* тоже обрезка краев */
+  margin-right: 10px;
+  float: left;
+  /* важный момент. с помощью этого знаения, мы показывем браузеру, что блок должен соприкасаться со вторым блоком приемущественно с левой стороны */
+}
+
+
+.contmeleft p {
+  overflow-wrap: normal;
+  /* показывает тексту, что он не должен заходить за границы блока */
+  word-wrap: normal;
+  word-break: normal;
+  /* не поддерживает Opera12.14, значение keep-all не поддерживается IE, Chrome */
+  line-break: auto;
+  /* нет поддержки для русского языка */
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  /* значение auto не поддерживается Chrome */
+
+  padding: 10px;
+  /* отступ от рамки до текста - делает его красивее */
+  margin-left: 15px;
+  /* отступ с левой стороны от блока с картинкой */
+  display: block;
+  /* обознначает, что это не просто бесформенный текст, а блок внутри блока */
+  font-weight: 400;
+  
+  font-size: 15px;
+  /* размер текста*/
+  margin: 2px 0 0 0;
+  /* отступ от блока с текстом */
+}
+
+
+
+.contmeright {
+  border-radius: 8px;
+  /* скругляем края блока*/
+  width: 100%;
+  /* общая ширина блока*/
+  border: 1px solid #d9d9d9;
+  /* рамка блока*/
+  overflow: hidden;
+  /* скрывает возможность появления прокрутки блока. */
+}
+
+.contmeright img {
+  width: 400px;
+  /* ширина картинки 140 */
+  height: 250px;
+  /* ысота картинки, от неё будет зависеть и размер общего блока */
+  object-fit: cover;
+  /* обрезаем края картинки, если они не вместятся в блок */
+  object-position: 0 70;
+  /* тоже обрезка краев */
+  margin-right: 10px;
+  float: right;
+
+}
+
+
+.contmeright p {
+  overflow-wrap: normal;
+  /* показывает тексту, что он не должен заходить за границы блока */
+  word-wrap: normal;
+  word-break: normal;
+  /* не поддерживает Opera12.14, значение keep-all не поддерживается IE, Chrome */
+  line-break: auto;
+  /* нет поддержки для русского языка */
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  /* значение auto не поддерживается Chrome */
+
+  padding: 10px;
+  /* отступ от рамки до текста - делает его красивее */
+  margin-right: 15px;
+  /* отступ с левой стороны от блока с картинкой */
+  display: block;
+  /* обознначает, что это не просто бесформенный текст, а блок внутри блока */
+  font-weight: 400;
+  
+  font-size: 15px;
+  /* размер текста*/
+  margin: 2px 0 0 0;
+  /* отступ от блока с текстом */
 }
