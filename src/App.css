@@ -7,6 +7,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1em;
   color: #4A5568;
+ 
 }
 
 .wrapper {
@@ -35,8 +36,9 @@ body {
   position: relative;
   margin: auto;
   padding: 0;
-  background-color: #f5f7f1;
+  background-color: #dfe2b2;
   overflow: hidden
+  
 }
 
 
@@ -61,7 +63,7 @@ body {
   padding: 0;
   box-sizing: content-box;
   width: 100%;
-  height: 60%;
+  height: 70%;
 }
 
 .imgblock img {
