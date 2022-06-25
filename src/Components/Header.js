@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap'
-import logo from './Logo.jpg'
+import icon_home from './icon_home.png'
 
 export default class Header extends Component {
     render() {
@@ -11,9 +11,9 @@ export default class Header extends Component {
                         <Container fluid>
                             <Navbar.Brand href="/">
                                 <img
-                                    src={logo}
+                                    src={icon_home}
                                     height="30"
-                                    width="60"
+                                    width="30"
                                     className="d-inline-block align-top"
                                     alt="Logo"
                                 />

@@ -17,7 +17,7 @@ function App() {
       <Header />
       <AppRoutes />
 
-      <div class="footer">
+      <div className="footer">
         Тут ссылки
       </div>
 
