@@ -17,8 +17,10 @@ function App() {
       <Header />
       <AppRoutes />
       <div className="footer">
-                    Тут ссылки
-                </div>
+        <div className="devby">
+          <a href="https://vk.com/annarbz">developed by annarbz</a>
+        </div>
+      </div>
 
 
 

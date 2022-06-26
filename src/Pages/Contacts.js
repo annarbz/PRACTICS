@@ -18,9 +18,7 @@ export default class Contacts extends Component {
         return (
             <div>
 
-                <b> КОНТАКТЫ</b>
 
-                <hr class="hr-line" width="250px" align="right" />
 
 
                 <div>
@@ -49,13 +47,13 @@ export default class Contacts extends Component {
                                             <hr class="hr-line" width="250px" align="right" />
 
                                             <p><strong>Ссылки на социальные сети:</strong></p>
-                                            <a href="https://vk.com/annarbz"> https://vk.com/annarbz
-                                            <br />
+                                            <a href="https://vk.com/annarbz"> https://vk.com/annarbz</a>
+                                                <br />
                                                 <a href="https://t.me/annarbz">https://t.me/annarbz</a>
-                                                
+
                                                 <hr class="hr-line" width="250px" align="right" />
-                                                
-                                            </a>
+
+                                            
                                         </Tab.Pane>
                                     </Tab.Content>
                                 </Col>

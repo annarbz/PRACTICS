@@ -12,7 +12,7 @@ export default class CarouselBox extends Component {
                 <Carousel.Item  className="carousel-home">
                     <div  class='imgblock'  >
                         <img sclassName="d-block w-100" src={dom_leto} alt='Утуки' />
-                        <button class="btn"><a className="Bron" href="ьь">
+                        <button class="btn"><a className="Bron" href="https://forms.yandex.ru/u/62b848819e3191e25abd7d56/">
                     ЗАБРОНИРОВАТЬ
                 </a></button>
                         {/* <Carousel.Caption> */}

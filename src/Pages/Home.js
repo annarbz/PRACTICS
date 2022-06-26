@@ -76,7 +76,7 @@ export default class Home extends Component {
 
                 <CarouselTur />
                 <hr class="hr-line" width="250px" align="right" />
-                
+
 
 
 
