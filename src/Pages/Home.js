@@ -6,6 +6,7 @@ import { CardGroup } from 'react-bootstrap';
 
 
 
+
 export default class Home extends Component {
     render() {
         return (
@@ -31,7 +32,7 @@ export default class Home extends Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card border="light" style={{ width: '25rem' }}>
+                        <Card border="light" style={{ width: '25rem' }} >
                             <hr width="250px" align="left" />
                             <h2>Услуги</h2>
                             <Accordion defaultActiveKey="0" className="accordion" >

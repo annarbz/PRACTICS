@@ -7,6 +7,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1em;
   color: #4A5568;
+  background: url(C:\Users\user\my-app\src\Components\fon.png);
 
 }
 
@@ -36,13 +37,15 @@ body {
   position: relative;
   margin: auto;
   padding: 0;
-  background-color: #dfe2b2;
+  background-color: #babd8f;
   overflow: hidden
+  
 }
 
 
 .content {
   flex: 1 0 auto;
+  background: url(C:\Users\user\my-app\src\Components\fon.png);
 }
 
 .footer {
@@ -69,8 +72,8 @@ body {
 .imgblock {
   position: static;
   display: inline-block;
-  margin: -10;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: content-box;
   width: 100%;
   height: 70%;
