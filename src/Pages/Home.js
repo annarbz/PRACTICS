@@ -5,6 +5,7 @@ import CarouselTur from '../Components/CarouselTur'
 import { CardGroup } from 'react-bootstrap';
 
 
+
 export default class Home extends Component {
     render() {
         return (
@@ -70,10 +71,12 @@ export default class Home extends Component {
 
                 <hr width="250px" align="left" />
                 <h2 className="Turism">
-                    ТУРИЗМ
+                    Рядом с нами
                 </h2>
 
                 <CarouselTur />
+                <hr class="hr-line" width="250px" align="right" />
+                
 
 
 
