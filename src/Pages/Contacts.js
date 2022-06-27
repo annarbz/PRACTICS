@@ -12,18 +12,21 @@ import {
     FormLabel,
     FormText,
 } from 'react-bootstrap'
+import karta from '../Components/karta.png';
+
+
 
 export default class Contacts extends Component {
     render() {
         return (
             <div>
-
-
-
-
                 <div>
                     <Container>
+                        <div>
+                            <img  src={karta} alt="карта"></img>
+                        </div>
                         <Tab.Container id="left-tabs-example" defaultActiveKey="kontakty">
+                            
                             <Row>
                                 <Col sm={9}>
                                     <Tab.Content>
@@ -48,12 +51,12 @@ export default class Contacts extends Component {
 
                                             <p><strong>Ссылки на социальные сети:</strong></p>
                                             <a href="https://vk.com/annarbz"> https://vk.com/annarbz</a>
-                                                <br />
-                                                <a href="https://t.me/annarbz">https://t.me/annarbz</a>
+                                            <br />
+                                            <a href="https://t.me/annarbz">https://t.me/annarbz</a>
 
-                                                <hr class="hr-line" width="250px" align="right" />
+                                            <hr class="hr-line" width="250px" align="right" />
 
-                                            
+
                                         </Tab.Pane>
                                     </Tab.Content>
                                 </Col>

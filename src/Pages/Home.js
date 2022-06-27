@@ -7,6 +7,7 @@ import { CardGroup } from 'react-bootstrap';
 
 
 
+
 export default class Home extends Component {
     render() {
         return (
@@ -14,13 +15,17 @@ export default class Home extends Component {
                 <CarouselBox />
                 <div>
 
-                    <CardGroup>
+                    <CardGroup  >
+                    
                         <Card border="light" style={{ width: '25rem' }}>
                             <hr width="250px" align="left" />
+                            
                             <h2>
+                                
                                 О НАС
                             </h2>
-                            <Card.Body>
+                            <Card.Body >
+                            
                                 <Card.Title>Гостевой Дом УТУКИ</Card.Title>
                                 <Card.Text>
                                     Мы находимся в уединенном местечке, на берегу живописного лесного озера в 55 км от г. Петрозаводска. Дом площадью 80 кв.м., с выходом на озеро и собственным причалом располагается на участке площадью 30 соток.
