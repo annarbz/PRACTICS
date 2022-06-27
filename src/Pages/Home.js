@@ -8,6 +8,7 @@ import { CardGroup } from 'react-bootstrap';
 
 
 
+
 export default class Home extends Component {
     render() {
         return (
@@ -16,16 +17,16 @@ export default class Home extends Component {
                 <div>
 
                     <CardGroup  >
-                    
-                        <Card border="light" style={{ width: '25rem' }}>
-                            <hr width="250px" align="left" />
-                            
+
+                        <Card border="light" style={{ width: '25rem' }} className="card">
+                            <hr width="368px" align="left" />
+
                             <h2>
-                                
+
                                 О НАС
                             </h2>
                             <Card.Body >
-                            
+
                                 <Card.Title>Гостевой Дом УТУКИ</Card.Title>
                                 <Card.Text>
                                     Мы находимся в уединенном местечке, на берегу живописного лесного озера в 55 км от г. Петрозаводска. Дом площадью 80 кв.м., с выходом на озеро и собственным причалом располагается на участке площадью 30 соток.
@@ -36,9 +37,10 @@ export default class Home extends Component {
                                     В стоимость входит: аренда дома, постельное белье, стоянка для авто, пользование посудой и бытовой техникой, мангалом, домиком для пикников, весельной лодкой.
                                 </Card.Text>
                             </Card.Body>
+
                         </Card>
                         <Card border="light" style={{ width: '25rem' }} >
-                            <hr width="250px" align="left" />
+                            <hr width="0px" align="right" />
                             <h2>Услуги</h2>
                             <Accordion defaultActiveKey="0" className="accordion" >
                                 <Accordion.Item eventKey="0">
@@ -63,7 +65,12 @@ export default class Home extends Component {
                                 <Accordion.Item eventKey="1">
                                     <Accordion.Header>За доп. плату</Accordion.Header>
                                     <Accordion.Body>
-                                        Баня
+                                        <ul>
+
+                                            <li>Баня</li>
+                                            <li>Рыбалка</li>
+                                            <li>Саб-сёрф</li>
+                                        </ul>
                                     </Accordion.Body>
                                 </Accordion.Item>
                             </Accordion>
@@ -75,7 +82,7 @@ export default class Home extends Component {
 
 
 
-                <hr width="250px" align="left" />
+                <hr width="368px" align="left" />
                 <h2 className="Turism">
                     Рядом с нами
                 </h2>

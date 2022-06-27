@@ -7,7 +7,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1em;
   color: #4A5568;
-  background: url(C:\Users\user\my-app\src\Components\fon.png);
 
 }
 
@@ -39,13 +38,12 @@ body {
   padding: 0;
   background-color: #babd8f;
   overflow: hidden
-  
 }
 
 
 .content {
   flex: 1 0 auto;
-  background: url(C:\Users\user\my-app\src\Components\fon.png);
+
 }
 
 .footer {
@@ -55,15 +53,15 @@ body {
   width: 100%;
   height: 50px;
   background-color: #282c34;
-  color:  white;
+  color: white;
   user-select: none;
 }
 
 .devby {
   display: flex;
   justify-content: center;
-  margin:  0px auto;
-  margin:  0px;
+  margin: 0px auto;
+  margin: 0px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -241,9 +239,62 @@ body {
 
 }
 
-.Karta{
-  position: absolute;
+.Karta {
+  position: relative;
   right: 0px;
+  float: right;
 }
 
 
+.Gallery {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.Otzyv {
+  border: none;
+  position: relative;
+  outline: none;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  /* Можно также использовать любые встроенные и кастомные шрифты, например, отсюда  */
+  font-family: Roboto, Verdana, Tahoma, sans;
+  /* Тут можно поэкспериментировать */
+  padding: 12px 16px;
+  border-radius: 100px;
+  color: rgb(228, 206, 10);
+}
+
+.Gallery hr {
+  position: relative;
+  display: flex;
+  width: 50%;
+  margin: 0 25% 0 25%;
+  float: center;
+}
+
+.carousel-home {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+  width: 100%;
+  height: 70%;
+}
+
+.carousel-home img {
+  background-size: auto;
+  width: 100%;
+  height: 90%;
+  margin-left: 0px;
+}
+
+.card{
+  text-align: center;
+}

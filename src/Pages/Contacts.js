@@ -21,12 +21,13 @@ export default class Contacts extends Component {
         return (
             <div>
                 <div>
+                    <div >
+                        <img className="Karta" src={karta} alt="карта"></img>
+                    </div>
                     <Container>
-                        <div>
-                            <img  src={karta} alt="карта"></img>
-                        </div>
+
                         <Tab.Container id="left-tabs-example" defaultActiveKey="kontakty">
-                            
+
                             <Row>
                                 <Col sm={9}>
                                     <Tab.Content>
@@ -66,6 +67,9 @@ export default class Contacts extends Component {
                 </div>
 
                 <Container>
+                <br />
+                <br />
+                <br />
                     <h1>Свяжитесь с нами</h1>
                     <Form>
                         <FormGroup controlId="formBasicEmail">
