@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/PRACTICS/static/css/main.a0f13fda.css",
-    "main.js": "/PRACTICS/static/js/main.e9aa8dc6.js",
+    "main.css": "/PRACTICS/static/css/main.6babcded.css",
+    "main.js": "/PRACTICS/static/js/main.ceee811b.js",
     "static/js/787.28cb0dcd.chunk.js": "/PRACTICS/static/js/787.28cb0dcd.chunk.js",
     "static/media/kivach.jpg": "/PRACTICS/static/media/kivach.ab9e9dae1a44a957106c.jpg",
     "static/media/girvas.jpg": "/PRACTICS/static/media/girvas.ab007f3ab2e469d0553a.jpg",
     "static/media/v.jpg": "/PRACTICS/static/media/v.7df92e475165c533c72c.jpg",
     "static/media/b.jpg": "/PRACTICS/static/media/b.5684070f1f30506f6759.jpg",
     "static/media/d.jpg": "/PRACTICS/static/media/d.29988fd8ebbdefaec22d.jpg",
-    "static/media/pirs.jpg": "/PRACTICS/static/media/pirs.e45e83cac89fe533ede5.jpg",
     "static/media/dom_leto.jpg": "/PRACTICS/static/media/dom_leto.2d93adac464eb2259acc.jpg",
-    "static/media/ozero.jpg": "/PRACTICS/static/media/ozero.5d60cb972c87c6284cd5.jpg",
     "static/media/g.jpg": "/PRACTICS/static/media/g.9d9713241ba70b1d5159.jpg",
     "static/media/marzial.jpg": "/PRACTICS/static/media/marzial.cd9e0dec053960d53592.jpg",
     "static/media/karta.png": "/PRACTICS/static/media/karta.34de36f1280bb8bac0ae.png",
     "index.html": "/PRACTICS/index.html",
-    "main.a0f13fda.css.map": "/PRACTICS/static/css/main.a0f13fda.css.map",
-    "main.e9aa8dc6.js.map": "/PRACTICS/static/js/main.e9aa8dc6.js.map",
+    "main.6babcded.css.map": "/PRACTICS/static/css/main.6babcded.css.map",
+    "main.ceee811b.js.map": "/PRACTICS/static/js/main.ceee811b.js.map",
     "787.28cb0dcd.chunk.js.map": "/PRACTICS/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0f13fda.css",
-    "static/js/main.e9aa8dc6.js"
+    "static/css/main.6babcded.css",
+    "static/js/main.ceee811b.js"
   ]
 }
