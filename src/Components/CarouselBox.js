@@ -18,8 +18,6 @@ export default class CarouselBox extends Component {
                         {/* <Carousel.Caption> */}
                         <span > <a href="https://yandex.ru/maps/-/CCUJn8At8D">Утуки, республика Карелия</a></span>
                     </div>
-
-
                     {/* </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item  className="carousel-home">
