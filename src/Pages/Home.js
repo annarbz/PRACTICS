@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import CarouselBox from '../Components/CarouselBox';
+
 import { Accordion, Card } from 'react-bootstrap'
 import CarouselTur from '../Components/CarouselTur'
 import { CardGroup } from 'react-bootstrap';
-
+import dom_leto from '../Components/dom_leto.jpg'
 
 
 
@@ -12,8 +12,14 @@ import { CardGroup } from 'react-bootstrap';
 export default class Home extends Component {
     render() {
         return (
-            <div>
-                <CarouselBox />
+
+            <div class='imgblock'  >
+                <img sclass="d-block w-100" src={dom_leto} alt='Утуки' />
+                <button className="btn">
+                    <a className="Bron" href="https://forms.yandex.ru/u/62b848819e3191e25abd7d56/">
+                        ЗАБРОНИРОВАТЬ
+                    </a></button>
+                <span > <a href="https://yandex.ru/maps/-/CCUJn8At8D">Утуки, республика Карелия</a></span>
                 <div>
 
                     <CardGroup  >
