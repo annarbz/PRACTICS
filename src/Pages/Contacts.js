@@ -12,7 +12,7 @@ import {
     FormLabel,
     FormText,
 } from 'react-bootstrap'
-import karta from '../Components/karta.png';
+
 
 
 
@@ -21,9 +21,18 @@ export default class Contacts extends Component {
         return (
             <div>
                 <div>
-                    <div >
-                        <img className="Karta" src={karta} alt="карта"></img>
-                    </div>
+                    
+                        <div className='Karta' >
+                            <iframe 
+                            src="https://yandex.ru/map-widget/v1/-/CCUN6-uFTA" 
+                            width="560"  
+                            height="400" 
+                            frameborder="1" 
+                            allowfullscreen="true" 
+                            style={{position:"relative"}}>
+                            </iframe>
+                        </div>
+                    
                     <Container>
 
                         <Tab.Container id="left-tabs-example" defaultActiveKey="kontakty">
@@ -67,9 +76,9 @@ export default class Contacts extends Component {
                 </div>
 
                 <Container>
-                <br />
-                <br />
-                <br />
+                    <br />
+                    <br />
+                    <br />
                     <h1>Свяжитесь с нами</h1>
                     <Form>
                         <FormGroup controlId="formBasicEmail">
@@ -91,7 +100,7 @@ export default class Contacts extends Component {
                         </Button>
                     </Form>
                 </Container>
-            </div>
+            </div >
 
         )
     }

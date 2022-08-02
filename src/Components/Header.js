@@ -9,7 +9,7 @@ export default class Header extends Component {
                 <div>
                     <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
                         <Container fluid>
-                            <Navbar.Brand href="/">
+                            <Navbar.Brand href="/"> 
                                 <img
                                     src={icon_home}
                                     height="30"
@@ -17,6 +17,7 @@ export default class Header extends Component {
                                     className="d-inline-block align-top"
                                     alt="Logo"
                                 />
+                                Гостевой дом УТУКИ
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
