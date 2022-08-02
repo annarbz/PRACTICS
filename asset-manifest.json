@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PRACTICS/static/css/main.925312e4.css",
-    "main.js": "/PRACTICS/static/js/main.ceee811b.js",
+    "main.css": "/PRACTICS/static/css/main.e5a53b39.css",
+    "main.js": "/PRACTICS/static/js/main.65ee81d4.js",
     "static/js/787.28cb0dcd.chunk.js": "/PRACTICS/static/js/787.28cb0dcd.chunk.js",
     "static/media/kivach.jpg": "/PRACTICS/static/media/kivach.ab9e9dae1a44a957106c.jpg",
     "static/media/girvas.jpg": "/PRACTICS/static/media/girvas.ab007f3ab2e469d0553a.jpg",
@@ -11,14 +11,13 @@
     "static/media/dom_leto.jpg": "/PRACTICS/static/media/dom_leto.2d93adac464eb2259acc.jpg",
     "static/media/g.jpg": "/PRACTICS/static/media/g.9d9713241ba70b1d5159.jpg",
     "static/media/marzial.jpg": "/PRACTICS/static/media/marzial.cd9e0dec053960d53592.jpg",
-    "static/media/karta.png": "/PRACTICS/static/media/karta.34de36f1280bb8bac0ae.png",
     "index.html": "/PRACTICS/index.html",
-    "main.925312e4.css.map": "/PRACTICS/static/css/main.925312e4.css.map",
-    "main.ceee811b.js.map": "/PRACTICS/static/js/main.ceee811b.js.map",
+    "main.e5a53b39.css.map": "/PRACTICS/static/css/main.e5a53b39.css.map",
+    "main.65ee81d4.js.map": "/PRACTICS/static/js/main.65ee81d4.js.map",
     "787.28cb0dcd.chunk.js.map": "/PRACTICS/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.925312e4.css",
-    "static/js/main.ceee811b.js"
+    "static/css/main.e5a53b39.css",
+    "static/js/main.65ee81d4.js"
   ]
 }
